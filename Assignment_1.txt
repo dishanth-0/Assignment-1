@@ -1,0 +1,94 @@
+Q1
+a=10
+print(type (a))
+l=[1,2,3,"Dishanth",3.14]
+print(type(l))
+b=3.123
+print(type(b))
+t=(3,6,7,8.3)
+print(type(t))
+
+
+Q2.
+1.String.
+2.String3.
+3.List.
+4.Integer
+
+
+Q3.
+'/'-It is the division operator. It is used to divide the one number by another.
+    eg: a=10
+        b=3
+        c=a/b
+        print(c)
+        
+'//'-It is the floor division operator which is used to get the quotient of the division of two numbers
+     eg: a=15
+         b=4
+         c=a//b
+         print(c)
+   
+'%'-It is the modulus operator which is used to get the remainder of the division of two numbers
+     eg: a=19
+         b=4
+         c=a%b
+         print(c)
+         
+'**'-It is the exponential operator which is used to raise the number to power of another
+     eg: a=2
+         b=4
+         c=a**b
+         print(c)
+         
+Q4.
+l=[1,2,3,4,3.4,"dishanth","hegde",5,7,9]
+for i in l:
+    print(i)
+    
+    
+Q5.
+a=int(input())
+b=int(input())
+count=0
+while a%b==0:
+    a=a/b
+    count += 1
+    
+if a==1:
+    print(count," times divisible")
+else:
+    print("purely not divisible")
+    
+    
+Q6.
+l=[3,5,2,4,56,6,8,9,10,15,74,56,23,19,10,1,12,15,18,32,33,45,46,43,90]
+for i in l:
+    if i%3 == 0:
+        print(i," is divisible by 3")
+    else:
+        print(i," is not divisible by 3")
+        
+
+Q7.
+Immutable data types:    
+Immutable data types are those whose values cannot be changed once they are created. 
+Examples of immutable data types in Python include:
+1.Numbers: integers, floats, and complex numbers
+2.Strings: a sequence of characters
+3.Tuples: an ordered sequence of elements
+Eg:
+my_str = "hello"
+my_str[0] = "j"
+Above code throws a Type error.
+
+Mutable data types:
+Mutable data types are those whose values can be changed after they are created.
+Examples of mutable data types in Python include:
+1.Lists: an ordered collection of elements
+2.Dictionaries: an unordered collection of key-value pairs
+3.Sets: an unordered collection of unique elements.
+Eg:
+my_list = [1, 2, 3, 4, 5]
+my_list[1] = 6
+print(my_list)  # Output: [1, 6, 3, 4, 5]
